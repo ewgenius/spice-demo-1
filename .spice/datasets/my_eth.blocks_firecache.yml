@@ -1,8 +1,8 @@
-name: eth.blocks
+name: my_eth.blocks_firecache
 type: append
 firecache:
   # Available on enterprise and partner plans
   # Learn more about Spice Firecache at https://docs.spice.ai/building-blocks/spice-firecache
-  enabled: false
+  enabled: true
   trigger: number
   time_column: timestamp
